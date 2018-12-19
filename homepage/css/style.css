@@ -1,0 +1,1018 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑";
+}
+
+.clear:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.list {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul.list li:last-child {
+	margin-right: 0;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.w {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+ul li {
+	float: left;
+}
+
+ul {
+	list-style: none;
+}
+.hover{
+	transition: all .2s linear;
+}
+.hover:hover{
+	box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+	-webkit-transform: translate3d(0px,-2px ,0px);
+	transform: translate3d(0px,-2px ,0px);
+	z-index: 2;
+}
+
+/******************************/
+
+
+/**************************************/
+
+
+/******************************top start**************************************/
+
+.top {
+	position:fixed;
+	left:0px;
+	top:0px;
+	z-index: 9999;
+	width: 100%;
+	height: 72px;
+	background: url(../img/top-bg.png);
+
+}
+/*.top-tiao{
+	width:100%;
+	height:72px;
+}*/
+.top-nav {
+	width: 100%;
+	text-align: center;
+	line-height: 72px;
+	
+}
+
+
+/*<!---------------/top end/--------------->
+<!---------------/banner start/--------------->*/
+
+.banner {
+	height: 738px;
+	width: 100%;
+	position: relative;
+	margin-top:72px;
+	
+}
+.banner-bg img{
+	height: 738px;
+	width: 100%;
+	position:absolute;
+	top:0px;
+	left:0px;	
+}
+.computer {
+	width: 940px;
+	height: 326px;
+	position: absolute;
+	top: 392px;
+	left: 30%;
+	transition: all 0.5s ease 0s;
+}
+
+.banner .computer:hover {
+	width: 980px;
+	height: 340px;
+	position: absolute;
+	top: 372px;
+	left: 28%;
+	cursor: pointer;
+}
+
+
+/*<!---------------/banner end/--------------->
+<!---------------/frool-1 start/--------------->*/
+
+.frool-1 {
+	background-color: #E5FAFA;
+	height: 600px;
+	width: 100%;
+}
+
+.frool-1-1 {
+	width: 1200px;
+	height: 600px;
+	position: relative;
+}
+
+.frool-1 img:hover {
+	cursor: pointer;
+}
+
+.frool-1-bg {
+	width: 1200px;
+	height: 500px;
+	top: 50px;
+	left: 0px;
+	position: absolute;
+}
+
+.frool-photo-bg {
+	width: 1053px;
+	height: 450px;
+	bottom: 50px;
+	right: 0px;
+	position: absolute;
+}
+
+.frool-1-3 img {
+	width: 63px;
+	height: 277px;
+	top: 50px;
+	left: 0px;
+	position: absolute;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-1-3 img:hover {
+	width: 83px;
+	height: 365px;
+	top: 40px;
+	left: -10px;
+}
+
+.frool-1-photo img {
+	width: 202px;
+	height: 309px;
+	position: absolute;
+	right: 35px;
+	bottom: 85px;
+}
+
+
+/*<!---------------/frool-1 end/--------------->
+<!---------------/frool-2 start/--------------->*/
+
+.frool-2 {
+	margin: 10px auto;
+	height: 1269px;
+}
+
+.frool-2 img:hover {
+	cursor: pointer;
+}
+
+.frool-2 .frool-2bg {
+	width: 1200px;
+	position: relative;
+}
+
+.frool-2bg .frool-2-bookbg img {
+	width: 1171px;
+	height: 456px;
+	position: absolute;
+	top: 40px;
+	left: 15px;
+}
+
+.frool-2bg .frool-2-bg img {
+	width: 1200px;
+	height: 732px;
+	position: absolute;
+	top: 526px;
+	left: 3px;
+}
+
+.frool-2bg .frool-2-bg0 img {
+	width: 1200px;
+	height: 1269px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.frool-2bg .frool-2-left img {
+	width: 200px;
+	height: 51px;
+	position: absolute;
+	top: 62px;
+	left: 50px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2bg .frool-2-left img:hover {
+	width: 250px;
+	height: 64px;
+	position: absolute;
+	top: 57px;
+	left: 30px;
+}
+
+.frool-2bg .frool-2-book img {
+	width: 946px;
+	height: 368px;
+	position: absolute;
+	top: 85px;
+	left: 125px;
+}
+
+.frool-2-book:hover {
+	-webkit-animation-name: bounce;
+	animation-name: bounce;
+	-webkit-transform-origin: center bottom;
+	transform-origin: center bottom;
+}
+
+.frool-2-right img {
+	width: 66px;
+	height: 272px;
+	position: absolute;
+	top: 538px;
+	right: 38px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-right img:hover {
+	width: 86px;
+	height: 354px;
+	position: absolute;
+	top: 528px;
+	right: 28px;
+}
+
+.frool-2-ps img {
+	width: 293px;
+	height: 305px;
+	position: absolute;
+	top: 551px;
+	right: 534px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-ps img:hover {
+	width: 343px;
+	height: 357px;
+	position: absolute;
+	top: 531px;
+	right: 514px;
+	z-index: 1;
+}
+
+.frool-2-js img {
+	width: 320px;
+	height: 263px;
+	position: absolute;
+	top: 836px;
+	right: 507px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-js img:hover {
+	width: 370px;
+	height: 304px;
+	position: absolute;
+	top: 816px;
+	right: 487px;
+	z-index: 1;
+}
+
+.frool-2-fw img {
+	width: 259px;
+	height: 350px;
+	position: absolute;
+	top: 851px;
+	right: 501px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-fw img:hover {
+	width: 309px;
+	height: 418px;
+	position: absolute;
+	top: 831px;
+	right: 481px;
+	z-index: 1;
+}
+
+.frool-2-ai img {
+	width: 256px;
+	height: 320px;
+	position: absolute;
+	top: 871px;
+	right: 296px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-ai img:hover {
+	width: 306px;
+	height: 383px;
+	position: absolute;
+	top: 851px;
+	right: 266px;
+	z-index: 1;
+}
+
+.frool-2-dw img {
+	width: 319px;
+	height: 232px;
+	position: absolute;
+	top: 868px;
+	right: 204px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-dw img:hover {
+	width: 369px;
+	height: 268px;
+	position: absolute;
+	top: 848px;
+	right: 184px;
+	z-index: 1;
+}
+
+.frool-2-css img {
+	width: 319px;
+	height: 261px;
+	position: absolute;
+	top: 642px;
+	right: 204px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-css img:hover {
+	width: 369px;
+	height: 302px;
+	position: absolute;
+	top: 622px;
+	right: 184px;
+	z-index: 1;
+}
+
+.frool-2-html img {
+	width: 226px;
+	height: 320px;
+	position: absolute;
+	top: 550px;
+	right: 296px;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-2-html img:hover {
+	width: 276px;
+	height: 391px;
+	position: absolute;
+	top: 530px;
+	right: 276px;
+	z-index: 1;
+}
+
+.frool-2-web img {
+	width: 212px;
+	height: 212px;
+	position: absolute;
+	top: 765px;
+	right: 415px;
+	cursor: pointer;
+	transition: all 0.5s ease 0s;
+	z-index: 99;
+}
+
+.frool-2-web img:hover {
+	transform: rotateZ(360deg);
+}
+
+
+/*<!---------------/frool-2 end/--------------->
+<!---------------/frool-3 start/--------------->*/
+
+.frool-3 {
+	width: 100%;
+	height: 600px;
+	background: url(../img/bg.png);
+}
+
+.frool-3 img:hover {
+	cursor: pointer;
+}
+
+.frool-3bg {
+	height: 600px;
+	position: relative;
+}
+
+.frool-3-right img {
+	width: 230px;
+	height: 33px;
+	position: absolute;
+	top: 25px;
+	right: 0px;
+	background-color: white;
+	padding: 10px;
+}
+
+.swiper-container {
+	width: 1200px;
+	height: 480px;
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+
+
+/*<!---------------/frool-3 end/--------------->
+<!---------------/frool-4 start/--------------->*/
+
+.frool-4 {
+	width: 100%;
+	height: 600px;
+}
+
+.frool-4-box {
+	height: 600px;
+	position: relative;
+}
+.frool-4-bg {
+	width: 1200px;
+	height: 600px;
+}
+
+.frool-4-right {
+	width: 219px;
+	height: 35px;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+}
+.frool-4-1 img{
+	width:235px;
+	height:257px;
+	position:absolute;
+	top:95px;
+	left:0px;
+}
+/*.frool-finger{
+	width:50px;
+	background-color:rgba(255,150,0,0.2);
+	position:absolute;
+	top:155px;
+	left:85px;
+}
+.frool-finger img{
+	width:50px;
+	height:77px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}*/
+.frool-4-1 img:hover{	
+	width:255px;
+	height:277px;
+	top:85px;
+	left:-10px;
+	transition: all 0.5s ease 0s;
+	z-index: 1;
+}
+.frool-4-2 img{
+	width:235px;
+	height:214px;
+	position:absolute;
+	top:175px;
+	left:240px;
+	transition: all 0.5s ease 0s;
+}
+.frool-4-2 img:hover{
+	width:255px;
+	height:232px;
+	top:165px;
+	left:230px;
+	z-index: 1;
+}
+.frool-4-3 img{
+	width:235px;
+	height:206px;
+	position:absolute;
+	top:225px;
+	left:483px;
+	transition: all 0.5s ease 0s;
+}
+.frool-4-3 img:hover{
+	width:255px;
+	height:224px;
+	top:215px;
+	left:472px;
+	z-index: 1;
+}
+.frool-4-4 img{
+	width:235px;
+	height:229px;
+	position:absolute;
+	top:240px;
+	left:724px;
+	transition: all 0.5s ease 0s;
+}
+.frool-4-4 img:hover{
+	width:255px;
+	height:248px;
+	top:230px;
+	left:714px;
+	z-index: 1;
+}
+.frool-4-5 img{
+	width:235px;
+	height:227px;
+	position:absolute;
+	top:280px;
+	right:0px;
+	transition: all 0.5s ease 0s;
+}
+.frool-4-5 img:hover{
+	width:255px;
+	height:246px;
+	top:270px;
+	right:-10px;
+	z-index: 1;
+}
+
+/*<!---------------/frool-4 end/--------------->
+<!---------------/frool-5 start/--------------->*/
+
+.frool-5 {
+	background: url(../img/bg.png);
+	width: 100%;
+	height: 600px;
+}
+
+.frool-5:hover img {
+	cursor: pointer;
+}
+
+.frool-5-bg {
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.frool-5-bg img {
+	position: absolute;
+}
+
+.frool-5-bottom img {
+	width: 1200px;
+	height: 197px;
+	top: 357px;
+	left: 0px;
+}
+
+.frool-5-0 img {
+	width: 161px;
+	height: 51px;
+	top: 465px;
+	left: 30px;
+}
+
+.frool-5-1 img {
+	width: 277px;
+	height: 308px;
+	top: 30px;
+	left: 0px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-5-1 img:hover {
+	width: 327px;
+	height: 358px;
+	top: 0px;
+	left: -25px;
+	z-index: 1;
+}
+
+.frool-5-2 img {
+	width: 277px;
+	height: 367px;
+	top: 30px;
+	left: 307px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-5-2 img:hover {
+	width: 327px;
+	height: 433px;
+	top: 0px;
+	left: 282px;
+}
+
+.frool-5-3 img {
+	width: 277px;
+	height: 420px;
+	top: 30px;
+	left: 614px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-5-3 img:hover {
+	width: 327px;
+	height: 496px;
+	top: 0px;
+	left: 587px;
+}
+
+.frool-5-4 img {
+	width: 277px;
+	height: 229px;
+	top: 30px;
+	left: 923px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-5-4 img:hover {
+	width: 327px;
+	height: 270px;
+	top: 0px;
+	left: 896px;
+}
+
+.frool-5-5 img {
+	width: 277px;
+	height: 243px;
+	top: 289px;
+	left: 923px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-5-5 img:hover {
+	width: 327px;
+	height: 287px;
+	top: 262px;
+	left: 895px;
+}
+
+
+/*<!---------------/frool-5 end/--------------->
+<!---------------/frool-6 start/--------------->*/
+
+.frool-6 {
+	width: 100%;
+	height: 600px;
+}
+
+.frool-6:hover img {
+	cursor: pointer;
+}
+
+.frool-6-bg {
+	position: relative;
+}
+
+.frool-6-bg img {
+	position: absolute !important;
+}
+
+.frool-6bg {
+	width: 1200px;
+	height: 600px;
+}
+
+.frool-xianzhang {
+	width: 542px;
+	height: 68px;
+	top: 204px;
+	left: 136px;
+	position: absolute;
+}
+
+.frool-6-0 {
+	width: 257px;
+	height: 54px;
+	top: 392px;
+	right: 10px;
+	position: absolute;
+}
+
+.frool-6-1 img {
+	width: 110px;
+	height: 106px;
+	top: 133px;
+	left: 85px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-1 img:hover {
+	width: 150px;
+	height: 145px;
+	top: 113px;
+	left: 65px;
+}
+
+.frool-6-2 img {
+	width: 122px;
+	height: 166px;
+	top: 60px;
+	left: 335px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-2 img:hover {
+	width: 162px;
+	height: 220px;
+	top: 40px;
+	left: 315px;
+}
+
+.frool-6-3 img {
+	width: 159px;
+	height: 184px;
+	top: 40px;
+	left: 500px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-3 img:hover {
+	width: 198px;
+	height: 228px;
+	top: 20px;
+	left: 480px;
+}
+
+.frool-6-4 img {
+	width: 166px;
+	height: 173px;
+	top: 30px;
+	left: 735px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-4 img:hover {
+	width: 206px;
+	height: 215px;
+	top: 10px;
+	left: 715px;
+}
+
+.frool-6-5 img {
+	width: 230px;
+	height: 263px;
+	top: 99px;
+	right: 23px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-5 img:hover {
+	width: 270px;
+	height: 309px;
+	top: 79px;
+	right: 3px;
+}
+
+.frool-6-6 img {
+	width: 253px;
+	height: 166px;
+	top: 319px;
+	left: 22px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-6 img:hover {
+	width: 293px;
+	height: 192px;
+	top: 299px;
+	left: 2px;
+}
+
+.frool-6-7 img {
+	width: 143px;
+	height: 164px;
+	top: 312px;
+	left: 295px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-7 img:hover {
+	width: 183px;
+	height: 210px;
+	top: 292px;
+	left: 275px;
+}
+
+.frool-6-8 img {
+	width: 159px;
+	height: 183px;
+	top: 312px;
+	left: 485px;
+	transition: all 0.5s ease 0s;
+}
+
+.frool-6-8 img:hover {
+	width: 199px;
+	height: 229px;
+	top: 292px;
+	left: 465px;
+}
+
+
+/*<!---------------/frool-6 end/--------------->
+<!---------------/frool-7 start/--------------->*/
+
+.frool-7 {
+	background: url(../img/bg.png);
+	width: 100%;
+	height: 500px;
+}
+
+.frool-7-img img {
+	width: 1200px;
+	height: 500px;
+}
+.frool-7-box{
+	position:relative;
+}
+.frooltk{
+	width:211px;
+	height:211px;
+	background-color:#6cb2b5;
+	position:absolute;
+	top:35px;
+	left:490px;
+	border-radius:50%;
+	text-align: center;
+}
+.frooltk img{
+	width:121px;
+	height:127px;
+	position:absolute;
+	top:45px;
+	left:45px;
+}
+.frooltk:hover img{
+	cursor:pointer;
+}
+.frooltk:hover{
+	background-color:#5690ad;
+}
+
+/*<!---------------/frool-7 end/--------------->
+<!---------------/frool-bottom start/--------------->*/
+
+.frool-bottom {
+	width: 100%;
+	height: 100px;
+}
+
+.frool-bottom-box {
+	height: 100px;
+	position: relative;
+}
+
+.frool-cype1 img{
+	width: 63px;
+	height: 43px;
+	position: absolute;
+	top: 28px;
+	left: 0px;
+}
+.frool-cype1 a {
+	position: absolute;
+	top: 35px;
+	left: 73px;
+	color:#6CB2B5;
+	font-size:24px;
+}
+.frool-cype2 img{
+	width: 42px;
+	height: 44px;
+	position: absolute;
+	top: 28px;
+	left: 355px;
+	
+}
+.frool-cype2 a {
+	position: absolute;
+	top: 35px;
+	left: 410px;
+	color:#6CB2B5;
+	font-size:24px;
+}
+.frool-cype3 img{
+	width: 46px;
+	height: 46px;
+	position: absolute;
+	top: 28px;
+	left: 680px;
+}
+.frool-cype3 a {
+	position: absolute;
+	top: 35px;
+	left: 735px;
+	color:#6CB2B5;
+	font-size:24px;
+}
+.frool-cype1 a:hover,.frool-cype2 a:hover,.frool-cype3 a:hover{
+	color:#5690ad;
+}
+
+
+.foot a {
+	text-decoration: none;
+	color: white;
+	background-color: #666;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	font-size: 20px;
+	position: absolute;
+	top: 32px;
+	right: 80px;
+}
+.foot:hover a{
+	background-color:#5690ad;
+}
+/*<!---------------/frool-bottom end/--------------->
+<!---------------/cype start/--------------->*/
+.left-cart{
+	width:200px;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index: 9999;
+	
+}
+.left-cart img{
+	width:200px;
+	height:611px;
+	padding-top:63px;
+	padding-left:0px;
+}
+.left-cart a{
+	font-size:18px;
+	color:#B11F30;
+	font-weight:bold;
+	display:block;
+	line-height: 20px;
+	position:absolute;
+	top:230px;
+	left:50px;
+}
+.left-cart a.my-home{
+	top:233px;
+	left:54px;
+}
+.left-cart a.index{
+	top:323px;
+	left:67px;
+}
+.left-cart a.mall-inner{
+	top:386px;
+	left:84px;
+}
+.left-cart a.home{
+	top:448px;
+	left:48px;
+}
+.left-cart a.watch-hopic{
+	top:507px;
+	left:48px;
+}
+.left-cart a.lover{
+	top:565px;
+	left:46px;
+}
+.left-cart a.go-top{
+	top:626px;
+	left:78px;
+	color:white;
+}

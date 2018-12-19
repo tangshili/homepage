@@ -1,0 +1,103 @@
+ .fenye {
+ 	width: 698px;
+ 	height: 70px;
+ 	overflow: hidden;
+ 	border-radius: 35px;
+ 	border: solid 1px #fd4365;
+ 	padding: 0;
+ 	margin: 60px 600px 50px!important;
+ }
+ 
+ .fenye li {
+ 	list-style: none;
+ 	float: left;
+ 	width: 232px;
+ 	text-align: center;
+ 	line-height: 70px;
+ 	color: #333;
+ 	font-size: 28px;
+ 	cursor: pointer;
+ }
+ 
+ .fenye li.active {
+ 	background-color: #fd4365;
+ 	border-radius: 35px;
+ 	color: #fff;
+ }
+ 
+ #Index_Box0,
+ #Index_Box1,
+ #Index_Box2 {
+ 	width: 1000px;
+ 	height: 640px;
+ 	margin: 0px auto;
+ 	margin-top: 38px;
+ 	position: relative;
+ }
+ 
+ #Index_Box0 ul,
+ #Index_Box1 ul,
+ #Index_Box2 ul {
+ 	position: relative;
+ 	width: 1000px;
+ 	height: 640px;
+ }
+ 
+ #Index_Box0 ul li,
+ #Index_Box1 ul li,
+ #Index_Box2 ul li {
+ 	z-index: 0;
+ 	position: absolute;
+ 	width: 0;
+ 	height: 0;
+ 	overflow: hidden;
+ 	top: 0px;
+ 	left: 0px;
+ 	box-shadow: 0px 5px  30px black;
+ }
+ 
+ #Index_Box0 ul li img,
+ #Index_Box1 ul li img,
+ #Index_Box2 ul li img {
+ 	width: 100%;
+ }
+ 
+ #Index_Box0 .prev,
+ #Index_Box1 .prev,
+ #Index_Box2 .prev {
+ 	display: block;
+ 	width: 46px;
+ 	height: 46px;
+ 	background: url(../img/ui_change_91.png) no-repeat center;
+ 	position: absolute;
+ 	border-radius: 50%;
+ 	top: 500px;
+ 	left: 0px;
+ 	z-index: 100;
+ 	cursor: pointer;
+ 	box-shadow: 0px 0px 20px #fd4365;
+ }
+ 
+ #Index_Box0 .next,
+ #Index_Box1 .next,
+ #Index_Box2 .next {
+ 	display: block;
+ 	width: 46px;
+ 	height: 46px;
+ 	background: url(../img/ui_change_93.png) no-repeat center;
+ 	position: absolute;
+ 	border-radius: 50%;
+ 	top: 500px;
+ 	right: 0px;
+ 	z-index: 100;
+ 	cursor: pointer;
+ 	box-shadow: 0px 0px 20px #fd4365;
+ }
+ 
+ #Index_Box1 {
+ 	display: none;
+ }
+ 
+ #Index_Box2 {
+ 	display: none;
+ }

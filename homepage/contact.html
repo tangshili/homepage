@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/enterprise.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min1.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<style type="text/css">
+			.toIndex {
+				position: fixed;
+				right: 20px;
+				top: 90%;
+				width: 30px;
+				height: 30px;
+				text-align: center;
+				border-radius: 50%;
+				background-color: #21579A;
+				padding: 15px;
+			}
+			
+			.toIndex a {
+				font-size: 14px;
+				color: white;
+				line-height: 16px;
+			}
+			.bul{
+				background-color:#21579A;
+			}
+			.gold{
+				background-color:#007AFF;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-------------------top start----------------->
+		<div class="top">
+			<div class="top-bg">
+				<div class="top-box w">
+					<div class="log"><img src="enterprise-img/log2.png" /></div>
+					<div class="top-home"><img src="enterprise-img/hom.png" />
+						<a href="#">设为首页</a>
+					</div>
+					<div class="top-collection"><img src="enterprise-img/collection.png" />
+						<a href="#">加入收藏</a>
+					</div>
+					<div class="top-cearch">
+						<input type="text" name="text" value="请输入关键字……" />
+						<button>搜索</button>
+					</div>
+				</div>
+			</div>
+			<div class="top-nav">
+				<div class="nva-box w">
+					<div class="nav">
+						<ul>
+							<li>
+								<a href="home.html">首页index</a>
+							</li>
+							<li>
+								<a href="about.html">公司简介about us</a>
+							</li>
+							<li>
+								<a href="news.html">新闻中心news</a>
+							</li>
+							<li>
+								<a href="#">产品中心 product</a>
+							</li>
+							<li>
+								<a class="a" href="contact.html">联系我们 contact us</a>
+							</li>
+							<li class="last">
+								<a href="join.html">加入我们 join us</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-------------------top end------------------->
+		<!-------------------banner start----------------->
+		<div class="banner04 w">
+			<img src="enterprise-img/banner04.png"/>
+		</div>
+		<!-------------------banner end ----------------->
+		<!-------------------content start------------------->
+		<div class="content w clear">
+			<div class="position">				
+				<p><img src="enterprise-img/position.png" />您当前的位置是：<a href="home.html">首页></a><a href="contact.html">联系我们</a></p>
+			</div>
+			<!--------end----------->
+			<div class="menu4 clear w">
+				<div class="menu4-left left ">
+					<img class="home-img hover" src="enterprise-img/home-img.png" />
+					<h1 class="hover">上海赞礼商城有限公司</h1>
+					<p class="hover">地址：上海市闵行区吴中路1189号7楼717</p>
+					<p class="hover">邮箱：zanli@163.com</p>
+					<p class="hover">电话：400-8888 8888</p>
+					<p class="hover">传真：400-6666 6666</p>
+					<div class="qq-box">
+						<img class="san-img left" src="enterprise-img/sanjiaoxing.png" />
+						<a class="left hover" href="#">在线咨询</a>
+						<img class="qq-img left hover" src="enterprise-img/qq.png" />
+						<img class="qq-img left hover" src="enterprise-img/qq.png" />
+					</div>
+				</div>
+			<!---------left end------------->
+				<div class="menu4-right left ">
+					<h1 class="hover">乘车路线</h1>
+					<p class="hover">地址：上海市闵行区吴中路1189号7楼717</p>
+					<p class="hover">(可乘公交：721路，931路，764路，149路，804路，地铁10号线，南东专线)</p>
+					<img class="hover" src="enterprise-img/map.png"/>
+					
+					
+
+				</div>
+			</div>
+			
+				
+		</div>
+		<div class="toIndex w">
+			<a href="index.html">返回<br/>主页</a>
+		</div>
+		<!-------------------content end----------------->
+		<!-------------------footer start ------------------->
+		<div class="footer">
+			<div class="footer-nav w">
+				<ul>
+					<li>
+						<a href="home.html">首页index</a>
+					</li>
+					<li>
+						<a href="about.html">公司简介about us</a>
+					</li>
+					<li>
+						<a href="news.html">新闻中心news</a>
+					</li>
+					<li>
+						<a href="#">产品中心product </a>
+					</li>
+					<li>
+						<a href="contact.html">联系我们 contact us</a>
+					</li>
+					<li class="last">
+						<a href="join.html">加入我们 join us</a>
+					</li>
+				</ul>
+
+				<div class="cype w">
+					<p>上海市闵行1402529区吴中路1189号7楼717 邮箱：zanli@163.com 电话：400-8888 8888 传真：400-6666 6666 </p>
+					<p>沪ICP备9号 版权所有©也码科技</p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript">
+			var toIndex = document.querySelector(".toIndex");
+			toIndex.setAttribute("class","toIndex bul");
+			console.log(toIndex.getAttribute("class"));
+			
+			setInterval(function(){
+				
+				if(toIndex.className=="toIndex bul"){
+					toIndex.className = "toIndex gold";
+				}else{
+					toIndex.className = "toIndex bul";
+				}
+			},500);
+		</script>
+		
+	
+		
+	</body>
+
+</html>

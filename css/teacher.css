@@ -1,0 +1,101 @@
+.teacher {
+	width: 1010px;
+	height: 500px;
+	margin: 30px auto;
+}
+
+.teacher .selected .teacher-img {
+	background-color: #FFFFFF;
+	border-radius: 95px 95px 0 0;
+}
+
+.teacher-box {
+	margin-top: 55px;
+	margin-right: 10px;
+	float: left;
+	width: 80px;
+	cursor: pointer;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.teacher-box img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+	transition: 0.5s;
+}
+
+.teacher-box h1 {
+	padding-top: 12px;
+	text-align: center;
+	color: #2B3D51;
+	line-height: 22px;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.teacher-info {
+	padding-top: 10px;
+	width: 190px;
+	display: none;
+	background-image: url(../img/bottom.png);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border-bottom: solid 3px #252b44;
+}
+
+.teacher-info h2 {
+	font-size: 18px;
+	line-height: 18px;
+	color: #333333;
+	text-align: center;
+}
+
+.teacher-info h2 span {
+	color: #FFFFFF;
+}
+
+.teacher-info h3 {
+	color: #FFF;
+	box-sizing: border-box;
+	padding: 4px 40px;
+	margin-top: 6px;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	background: #FF3D60;
+	margin-bottom: 0;
+}
+
+.teacher-info p {
+	font-size: 12px;
+	color: #333333;
+	line-height: 20px;
+	margin: 0;
+	padding: 26px;
+}
+
+.teacher-box.selected {
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 190px;
+	transition: 0.5s;
+}
+
+.teacher-box.selected img {
+	width: 190px;
+	height: 190px;
+	border: solid 2px #fd4365;
+	transition: 0.5s;
+	box-sizing: border-box;
+}
+
+.teacher-box.selected h1 {
+	display: none;
+}
+
+.teacher-box.selected .teacher-info {
+	display: block;
+}
