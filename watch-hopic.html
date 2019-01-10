@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" href="css/animate.css" />
 		<link rel="stylesheet" type="text/css" href="css/watch-topic.css" />
+		<link rel="stylesheet" type="text/css" href="css/common-nav.css"/>
 		<style type="text/css">
 			.toIndex {
 				position: fixed;
@@ -45,10 +46,51 @@
 	</head>
 
 	<body>
+		<div class="side-navigation">
+			<img class="flower-1" src="img/flower-1.png" />
+			<ol>
+				<li style="border-top:1px solid #ffffff;">
+					<a href="index.html">个人主页</a>
+				</li>
+				<li>
+					<a href="resume.html">简历</a>
+				</li>
+				<li>
+					<a href="mall-inner.html">商城站</a>
+				</li>
+				<li>
+					<a href="home.html">企业站</a>
+					<dl>
+						<dd>
+							<a href="home.html">首页</a>
+						</dd>
+						<dd>
+							<a href="about.html">公司简介</a>
+						</dd>
+						<dd>
+							<a href="news.html">新闻中心</a>
+						</dd>
+						<dd>
+							<a href="contact.html">联系我们</a>
+						</dd>
+						<dd>
+							<a href="join.html">加入我们</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<a href="watch-hopic.html">手表专题</a>
+				</li>
+				<li>
+					<a href="valentines-Day.html">情人节专题</a>
+				</li>
+			</ol>
+			<img class="drop-1" src="img/drop-1.png" />
+		</div>
 		<div id="top"></div>
 		<div class="iframe">
 			<iframe src="img/00.html" width="100%" height="100%"></iframe>
-			<div class="banner-watch hover w">
+			<div class="banner-watch w">
 				<img src="watch-img/watch.png" />
 			</div>
 		</div>
@@ -57,7 +99,7 @@
 /*-------------------floor-1 start---------------------------*/		-->
 		<div class="floor-1 w">
 			<div class="watch-man">
-				<img class="" src="watch-img/watch-man.png" />
+				<img  src="watch-img/watch-man.png" />
 			</div>
 			<div class="watch-a">
 				<img src="watch-img/a.png" />
@@ -331,9 +373,9 @@
 				<p>沪ICP备9号 版权所有©也码科技</p>
 			</div>
 		</div>
-		<div class="toIndex w">
+		<!--<div class="toIndex w">
 			<a href="index.html">返回<br/>主页</a>
-		</div>
+		</div>-->
 
 		<script type="text/javascript">
 			var toIndex = document.querySelector(".toIndex");

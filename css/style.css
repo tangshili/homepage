@@ -1003,6 +1003,11 @@ ul {
 	display:block;
 	box-sizing: border-box;
 }
+.left-cart-a a:hover{
+	color:white;
+	/*text-shadow: 1px 1px 0px white;*/
+	background-color:#6CB2B5;
+}
 .left-cart a.my-home{
 	top:20px;	
 	display:block;	

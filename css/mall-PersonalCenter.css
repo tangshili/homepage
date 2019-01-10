@@ -1,0 +1,326 @@
+/*top*/
+body{
+	font-family: "微软雅黑";
+}
+.top {
+	width: 100%;
+}
+
+.navigation {
+	width: 100%;
+	height: 45px;
+	background-color: #BB4363;
+}
+
+.navigation-box {
+	position: relative;
+}
+
+.navigationA-right a {
+	color: white;
+	line-height: 45px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.log {
+	width: 100%;
+	height: 90px;
+	background-color: #E8E6E5;
+	margin-top:25px;
+}
+
+.log-box {
+	position: relative;
+}
+
+.log-box>div {
+	position: absolute;
+}
+
+.log-img {
+	width: 202px;
+	height: 79px;
+	top: 0px;
+	left: 0px;
+}
+
+.search {
+	width: 425px;
+	height: 35px;
+	border: 1px solid #BB4363;
+	top: 25px;
+	left: 350px;
+	position: absolute;
+}
+
+.search-box {
+	width: 50px;
+	height: 35px;
+	border-right: 1px solid #BB4363;
+	text-align: center;
+	line-height: 35px;
+}
+
+
+/*.input-box img{
+	width:19px;
+	height:15px;
+	top:10px;
+	left:10px;
+	margin-right:5px;
+}*/
+
+.search input {
+	width: 299px;
+	height: 33px;
+	line-height: 33px;
+	border: 0px;
+	color: #333;
+	top: 0px;
+	left: 51px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0);
+	padding-left: 8px;
+	outline: none;
+	outline: none;
+}
+
+.search-text button {
+	width: 75px;
+	height: 35px;
+	position: absolute;
+	background-color: #BB4363;
+	top: 0px;
+	right: 0px;
+	text-align: center;
+	line-height: 35px;
+	border: 0px;
+	outline: none;
+}
+
+.search-text .btn {
+	color: white;
+}
+
+.search-text button:hover {
+	cursor: pointer;
+}
+
+.cart {
+	width: 150px;
+	height: 37px;
+	top: 20px;
+	right: 0px;
+}
+
+.guild {
+	width: 425px;
+	top: 68px;
+	left: 350px;
+	position: absolute;
+}
+
+.guild a {
+	color: #333;
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+.cart-join {
+	width: 90px;
+	height: 35px;
+	background-color: #BB4363;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	color: white;
+	text-align: center;
+	line-height: 35px;
+}
+
+.cart-join a {
+	color: white;
+	font-size: 14px;
+}
+.mall-nav{
+	width:100%;
+	height:50px;
+	background-color:#BB4363;
+	margin-top:90px;
+}
+.mall-nav-a{
+	width:900px;
+	margin:0px auto;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+}
+.mall-nav-a a{
+	color:white;
+}
+.mall-nav-a .flex-1:hover{
+	background-color:#FB5178;
+}
+.active{
+	background-color:#FB5178;
+}
+.m{
+	margin-right:10px;
+}
+.reds{
+	color:#bb4363;
+}
+/*top end*/
+/*mall-position*/
+.mall-position{
+	height:30px;
+	line-height: 30px;
+	margin-bottom:8px;
+}
+/*mall-position end*/
+/*mall-user start*/
+.mall-user{
+	height:45px;
+}
+.mall-user .mine{
+	width:150px;
+	height:45px;
+	background-color:#BB4363;
+	font-size:14px;
+	color:white;
+	text-align: center;
+	line-height: 45px;
+	margin-right:10px;
+}
+.mall-user .User{
+	background-color:#BB4363;
+	position:relative;
+}
+.mall-user .User-phone{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	margin-top:2.5px;
+	margin-left:10px;
+	margin-right:20px;
+}
+.User-right{
+	padding:6px;
+	position:relative;
+	display:inline-block;
+	position:absolute;
+	top:0px;
+	width:200px;
+}
+.User-box{
+	display:inline-block;
+	width:100px;
+	height:12px;
+	background-color:white;
+	position:absolute;
+	top:27px;
+	left:70px;
+}
+.User-box:after{
+	display:block;
+	content:"";
+	clear:both;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:80px;
+	height:12px;
+	background-color:#80C269;
+}
+.User-address{
+	position:absolute;
+	top:0px;
+	right:80px;
+	height:45px;
+	line-height:45px;
+}
+.User-address a{
+	color:white;
+}
+.User-address a:hover{
+	color:gold;
+}
+/*mall-user end*/
+/*.Order start*/
+.Order{
+	
+}
+.Order .OrderCenter{
+	width:150px;
+	height:400px;
+	border:1px solid #ccc;
+	box-sizing: border-box;
+}
+.mallCenter-Home{
+	width:18px;
+	height:19px;
+	margin-right:10px;
+}
+.mallCenter-Profile{
+	width:19px;
+	height:19px;
+	margin-right:10px;
+}
+.OrderCenter-title{
+	height:45px;
+	line-height: 55px;
+	border-bottom:1px solid #ccc;
+	margin:0px 8px;
+	font-size:14px;
+}
+.OrderCenter-title2{
+	height:40px;
+	line-height: 45px;
+	border-bottom:1px solid #ccc;
+	margin:0px 8px;
+	font-size:14px;
+}
+.OrderCenter-list{
+	margin:10px;
+	text-align: center;
+}
+.OrderCenter-list img{
+	margin-right:10px;
+}
+.OrderCenter-list span{
+	font-size:12px;
+	line-height: 24px;
+}
+/*.Order end*/
+/*MyOrder start*/
+
+.MyOrder{
+	width:100%;
+	height:40px;
+	margin-left:10px;
+	border-bottom:2px solid #ccc;
+	position:relative;
+}
+.MyOrder-title{
+	height:40px;
+	padding-top:10px;
+	box-sizing: border-box;
+}
+.MyOrder:after{
+	display:block;
+	content:"";
+	clear:both;
+	width:68px;
+	height:2px;
+	background-color:#6CC9E8;
+	position:absolute;
+	bottom:-2px;
+	left:0px;
+}
+.MyOrder-state{
+	height:30px;
+	margin:10px 0px;
+	background-color:#ece9e6;
+}
+/*MyOrder end*/

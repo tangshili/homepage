@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" type="text/css" href="css/reset.css" />-->
+		<!--<link rel="stylesheet" type="text/css" href="css/common.css" />-->
+		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>-->
+		<style type="text/css">
+			a{
+				text-decoration:none;
+				color:#333333;
+			}
+			.left{
+				float:left;
+			}
+			.right{
+				float:right;
+			}
+			.w {
+				width: 1200px;
+				margin: 0px auto;
+			}
+			
+			.login {
+				height: 90px;
+			}
+			
+			.login-logo {
+				width: 202px;
+				height: 90px;
+				display:inline-block;
+			}
+			.welcome,.login-a{
+				display:inline-block;
+			}
+			
+			.login-logo img {
+				width: 202px;
+				height: 79px;
+				padding-top: 5px;
+			}
+			
+			.login-banner {
+				width: 100%;
+			}
+			
+			.login-banner .login-gift {
+				width: 373px;
+				height: 349px;
+			}
+			
+			.foot-nav {
+				margin: 15px auto;
+				text-align: center;
+			}
+			
+			.foot-nav a {
+				font-size: 16px;
+				padding: 0px 20px;
+				color: #333;
+				border-right: 1px solid #ccc;
+			}
+			
+			.foot-nav a:hover {
+				color: #21579A;
+			}
+			
+			.foot-nav .last-a {
+				border-right: 0px;
+			}
+			
+			.copyright {
+				text-align: center;
+			}
+			
+			.copyright p {
+				font-size: 14px;
+				line-height: 20px;
+			}			
+		
+			.login-gift-box {
+				height: 450px;
+			}
+			
+			.login-user {
+				width: 352px;
+				height: 400px;
+				background-image: url(resume-img/login-bg0.png);
+				background-size: cover;
+				position: absolute;
+				top: 30px;
+				right: 150px;
+			}
+			
+			.login-user-user {
+				display: flex;
+				display: -webkit-flex;
+				margin-top: 50px;
+				width: 350px;
+				height: 50px;
+				position: absolute;
+				top: 30px;
+				left: 0px;
+				padding: 10px 20px;
+				box-sizing: border-box;
+			}
+			
+			.login-user-pass {
+				display: flex;
+				display: -webkit-flex;
+				margin-top: 60px;
+				width: 350px;
+				height: 50px;
+				position: absolute;
+				top: 75px;
+				left: 0px;
+				padding: 10px 20px;
+				box-sizing: border-box;
+			}
+			
+			.login-text {
+				width: 320px;
+				box-sizing: border-box;
+				position: absolute;
+				top: 190px;
+				left: 20px;
+				height: 30px;
+				line-height: 30px;
+				padding-right: 10px;
+			}
+			
+			.flex-1 {
+				width: 29px;
+				height: 30px;
+				margin-right: 10px;
+			}
+			
+			.flex-2 {
+				flex: 1;
+				height: 30px;
+			}
+			
+			.user-input {
+				border-bottom: 1px solid #eb83aa;
+			}
+			
+			.flex {
+				display: flex;
+			}
+			
+			.flex-01 {
+				flex: 1;
+				text-align: left;
+			}
+			
+			.flex-02 {
+				flex: 1;
+				text-align: right;
+			}
+			
+			.third-party {
+				width: 302px;
+				height: 1px;
+				background-image: url(resume-img/line.png);
+				position: absolute;
+				top: 300px;
+				left: 25px;
+			}
+			
+			.third-party-icon {
+				position: absolute;
+				top: 330px;
+				left: 100px;
+			}
+			
+			button:hover {
+				cursor: pointer;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="login">
+			<div class="login-top w">
+				<div class="login-logo left">
+					<img src="img/log.png" />
+				</div>
+				<div class="welcome">
+					<span class="left" style="font-size:18px; margin:61px 0px 0px 20px;">欢迎来到赞礼！</span>
+				</div>
+				<div class="login-a right" style="font-size:12px; margin-top:68px;">
+					<a href="mall-inner.html">返回首页</a>&nbsp;|
+					<a href="#">帮助中心</a>
+				</div>
+			</div>
+		</div>
+		<div class="login-banner" style="height: 500px;background-image: url(img/login-bg.png);background-size: contain">
+			<div class="login-gift-box w" style="position:relative; font-size:14px;">
+				<img class="login-gift" src="img/login-gift.png" style="position:absolute;top:0px; left:150px;" />
+				<div class="login-user">
+					<span style="font-size:20px; color:#eb84ab; position:absolute; top:35px; left:133px; letter-spacing: 2px;">欢迎登录</span>
+					<div class="login-user-user">
+						<div class="user-img flex-1">
+							<img src="resume-img/user.png" />
+						</div>
+						<div class="user-input flex-2">
+							<input style="padding-left:10px; height:26px; border:0px; outline: none;" type="text" name="text" id="text" placeholder="请输入用户名……" />
+						</div>
+					</div>
+					<div class="login-user-pass">
+						<div class="user-img flex-1">
+							<img src="resume-img/pass.png" />
+						</div>
+						<div class="user-input flex-2">
+							<input style="padding-left:10px; height:26px; border:0px; outline: none;" type="text" name="text" id="text" placeholder="请输入密码……" />
+						</div>
+					</div>
+					<div class="login-text flex">
+						<div class="forget flex-01">
+							<a href="#" style=" color:#eb83aa;">忘记密码</a>
+						</div>
+						<div class="registered flex-02" style=" color:#eb83aa;">
+							还没有账号
+							<a href="#" style=" color:#eb83aa;">注册</a>
+						</div>
+					</div>
+					<button style="width:202px; outline:none; position:absolute;top:240px;left:75px; background-color:#eb83aa; height:30px; border:0px; border-radius:5px; color:#ffffff;">登录</button>
+					<div class="third-party"></div>
+					<span style="position:absolute;top:290px;left:140px;">第三方登录</span>
+					<div class="third-party-icon">
+						<a href="#"><img style="margin-right:10px;" src="resume-img/login-wechat.png" /></a>
+						<a href="#"><img style="margin-right:10px;" src="resume-img/login-tenxun.png" /></a>
+						<a href="#"><img style="margin-right:10px;" src="resume-img/login-weibo.png" /></a>
+						<a href="#"><img src="resume-img/login-qq.png" /></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="foot-nav w clear">
+			<a style="text-decoration:none;" href="mall-inner.html">首页 </a>
+			<a style="text-decoration:none;" href="#">个人福利</a>
+			<a style="text-decoration:none;" href="#">家庭福利</a>
+			<a style="text-decoration:none;" href="#">公司福利</a>
+			<a style="text-decoration:none;" href="#">兑换专区</a>
+			<a style="text-decoration:none;" href="#" class="last-a">特价专卖</a>
+
+		</div>
+		<!------------foot-nav end--------------->
+		<div class="copyright w">
+			<p>上海市闵行1402529区吴中路1189号7楼717 邮箱：zanli@163.com 电话：400-8888 8888 传真：400-6666 6666 </p>
+			<p>沪ICP备9号 版权所有©也码科技</p>
+		</div>
+		<!------------cype start--------------->
+
+	</body>
+
+</html>

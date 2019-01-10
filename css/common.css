@@ -143,6 +143,7 @@ input{
 	right:0px;	
 	padding-left:15px;
 	color:#666;
+	outline: none;
 }
 button{
 	width:45px;
@@ -153,8 +154,9 @@ button{
 	text-align: center;
 	line-height: 33px;
 	color:#333;
-	border-radius:5px;
+	/*border-radius:5px;*/
 	border:0px;
+	outline: none;
 	
 }
 button:hover{

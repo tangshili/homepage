@@ -8,7 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="css/enterprise.css" />
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/swiper.min1.css" />
-		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/common-nav.css"/>
 		<style type="text/css">
 			.toIndex {
 				position: fixed;
@@ -27,17 +28,60 @@
 				color: white;
 				line-height: 16px;
 			}
-			.bul{
-				background-color:#21579A;
+			
+			.bul {
+				background-color: #21579A;
 			}
-			.gold{
-				background-color:#007AFF;
+			
+			.gold {
+				background-color: #007AFF;
 			}
 		</style>
-		
+
 	</head>
 
 	<body>
+		<div class="side-navigation">
+			<img class="flower-1" src="img/flower-1.png" />
+			<ol>
+				<li style="border-top:1px solid #ffffff;">
+					<a href="index.html">个人主页</a>
+				</li>
+				<li>
+					<a href="resume.html">简历</a>
+				</li>
+				<li>
+					<a href="mall-inner.html">商城站</a>
+				</li>
+				<li>
+					<a href="home.html">企业站</a>
+					<dl>
+						<dd>
+							<a href="home.html">首页</a>
+						</dd>
+						<dd>
+							<a href="about.html">公司简介</a>
+						</dd>
+						<dd>
+							<a href="news.html">新闻中心</a>
+						</dd>
+						<dd>
+							<a href="contact.html">联系我们</a>
+						</dd>
+						<dd>
+							<a href="join.html">加入我们</a>
+						</dd>
+					</dl>
+				</li>
+				<li>
+					<a href="watch-hopic.html">手表专题</a>
+				</li>
+				<li>
+					<a href="valentines-Day.html">情人节专题</a>
+				</li>
+			</ol>
+			<img class="drop-1" src="img/drop-1.png" />
+		</div>
 		<!-------------------top start----------------->
 		<div class="top">
 			<div class="top-bg">
@@ -50,7 +94,7 @@
 						<a href="#">加入收藏</a>
 					</div>
 					<div class="top-cearch">
-						<input type="text" name="text" value="请输入关键字……" />
+						<input type="text" name="text" placeholder="请输入关键字……" />
 						<button>搜索</button>
 					</div>
 				</div>
@@ -75,7 +119,7 @@
 								<a href="contact.html">联系我们 contact us</a>
 							</li>
 							<li class="last">
-								<a  class="a" href="join.html">加入我们 join us</a>
+								<a class="a" href="join.html">加入我们 join us</a>
 							</li>
 						</ul>
 					</div>
@@ -87,18 +131,21 @@
 		<!-------------------top end------------------->
 		<!-------------------banner start----------------->
 		<div class="banner05 w">
-			<img src="enterprise-img/banner05.png"/>
+			<img src="enterprise-img/banner05.png" />
 		</div>
 		<!-------------------banner end ----------------->
 		<!-------------------content start------------------->
 		<div class="content w clear">
-			<div class="position">				
-				<p><img src="enterprise-img/position.png" />您当前的位置是：<a href="home.html">首页></a><a href="join.html">加入我们</a></p>
+			<div class="position">
+				<p><img src="enterprise-img/position.png" />您当前的位置是：
+					<a href="home.html">首页></a>
+					<a href="join.html">加入我们</a>
+				</p>
 			</div>
 			<!--------end----------->
 			<div class="menu5 clear w">
 				<div class="menu5-left left">
-					<img class="rec-img hover" src="enterprise-img/img-05.png"/>
+					<img class="rec-img hover" src="enterprise-img/img-05.png" />
 					<p class="bule hover"><img src="enterprise-img/right-05.png" />NET高级软件工程师</p>
 					<p class="hover"><img src="enterprise-img/right-05.png" />NET高级项目组长</p>
 					<p class="hover"><img src="enterprise-img/right-05.png" />高级软件工程师</p>
@@ -111,24 +158,24 @@
 					<div class="rec-box hover">
 						<img class="sanjiaoxing left" src="enterprise-img/sanjiaoxing.png" />
 						<a class="left" href="#">在线咨询</a>
-						<img class="qq-1 left" src="enterprise-img/qq.png"/>
-						<img class="qq-1 left" src="enterprise-img/qq.png"/>
+						<img class="qq-1 left" src="enterprise-img/qq.png" />
+						<img class="qq-1 left" src="enterprise-img/qq.png" />
 					</div>
-					
+
 				</div>
-			<!---------left end------------->
+				<!---------left end------------->
 				<div class="menu5-right left">
-					<p>工作地点：	上海-宝山区</p>
-					<p>招聘人数：	4</p>
-					<p>工作年限：	三年以上</p>
-					<p>学 历：	大专</p>
-					<p>薪水范围：	面议</p>
-					<p>职位职能:	高级软件工程师 互联网软件开发工程师</p>
-					<p>职位标签:	项目管理 项目组长 项目实施 网络 架构 搭建</p>
-					<p>职位职能:	项目主管 其他</p>
-					<p>职位描述：	负责项目的需求明确、客户分析，对项目的规模、进度、工作量、质量、费用、风险、缺陷等负</p>
+					<p>工作地点： 上海-宝山区</p>
+					<p>招聘人数： 4</p>
+					<p>工作年限： 三年以上</p>
+					<p>学 历： 大专</p>
+					<p>薪水范围： 面议</p>
+					<p>职位职能: 高级软件工程师 互联网软件开发工程师</p>
+					<p>职位标签: 项目管理 项目组长 项目实施 网络 架构 搭建</p>
+					<p>职位职能: 项目主管 其他</p>
+					<p>职位描述： 负责项目的需求明确、客户分析，对项目的规模、进度、工作量、质量、费用、风险、缺陷等负</p>
 					<p>责，承担项目小组的资源分配， 工作安排，保证项目在规定的实现内保质保量完成。</p>
-					<p>职位要求：	1、具备良好的团队管理能力和合作精神。</p>
+					<p>职位要求： 1、具备良好的团队管理能力和合作精神。</p>
 					<p>2、具有良好的人际交往能力和较强的应变能力。</p>
 					<p>3、有强烈的责任心，主动性强。</p>
 					<p>4、注重承诺，尊重客户，能够换位思考。</p>
@@ -144,16 +191,14 @@
 					<p>12、具备项目组长工作经验2年或以上。</p>
 					<p>13、计算机相关专业毕业，大学专科以上学历；</p>
 					<p>14、具有社交软件开发经验工作者</p>
-					
 
 				</div>
 			</div>
-			
-				
+
 		</div>
-		<div class="toIndex w">
+		<!--<div class="toIndex w">
 			<a href="index.html">返回<br/>主页</a>
-		</div>
+		</div>-->
 		<!-------------------content end----------------->
 		<!-------------------footer start ------------------->
 		<div class="footer">
@@ -185,23 +230,22 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<script type="text/javascript">
 			var toIndex = document.querySelector(".toIndex");
-			toIndex.setAttribute("class","toIndex bul");
+			toIndex.setAttribute("class", "toIndex bul");
 			console.log(toIndex.getAttribute("class"));
-			
-			setInterval(function(){
-				
-				if(toIndex.className=="toIndex bul"){
+
+			setInterval(function() {
+
+				if(toIndex.className == "toIndex bul") {
 					toIndex.className = "toIndex gold";
-				}else{
+				} else {
 					toIndex.className = "toIndex bul";
 				}
-			},500);
+			}, 500);
 		</script>
-	
-		
+
 	</body>
 
 </html>

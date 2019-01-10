@@ -41,7 +41,8 @@ a{
 	height:700px;	*/
 }
 .iframe{
-	position:relative;	
+	position:relative;
+	background-color:#000000	
 }
 .iframe .banner-watch{
 	height:370;
