@@ -1,7 +1,19 @@
 /*top*/
-body{
+
+body {
 	font-family: "微软雅黑";
 }
+/*hover*/
+.hover{
+	transition: all .2s linear;
+}
+.hover:hover{
+	box-shadow: 0px 15px 30px rgba(0,0,0,0.1);
+	-webkit-transform: translate3d(0px,-2px ,0px);
+	transform: translate3d(0px,-2px ,0px);
+	z-index: 2;
+}
+/*hover*/
 .top {
 	width: 100%;
 }
@@ -27,7 +39,7 @@ body{
 	width: 100%;
 	height: 90px;
 	background-color: #E8E6E5;
-	margin-top:25px;
+	margin-top: 25px;
 }
 
 .log-box {
@@ -143,184 +155,595 @@ body{
 	color: white;
 	font-size: 14px;
 }
-.mall-nav{
-	width:100%;
-	height:50px;
-	background-color:#BB4363;
-	margin-top:90px;
+
+.mall-nav {
+	width: 100%;
+	height: 50px;
+	background-color: #BB4363;
+	margin-top: 90px;
 }
-.mall-nav-a{
-	width:900px;
-	margin:0px auto;
-	height:50px;
+
+.mall-nav-a {
+	width: 900px;
+	margin: 0px auto;
+	height: 50px;
 	text-align: center;
 	line-height: 50px;
 }
-.mall-nav-a a{
-	color:white;
+
+.mall-nav-a a {
+	color: white;
 }
-.mall-nav-a .flex-1:hover{
-	background-color:#FB5178;
+
+.mall-nav-a .flex-1:hover {
+	background-color: #FB5178;
 }
-.active{
-	background-color:#FB5178;
+
+.active {
+	background-color: #FB5178;
 }
-.m{
-	margin-right:10px;
+
+.m {
+	margin-right: 10px;
 }
-.reds{
-	color:#bb4363;
+
+.reds {
+	color: #bb4363;
 }
+
+
 /*top end*/
+
+
 /*mall-position*/
-.mall-position{
-	height:30px;
+
+.mall-position {
+	height: 30px;
 	line-height: 30px;
-	margin-bottom:8px;
+	margin-bottom: 8px;
 }
+
+
 /*mall-position end*/
+
+
 /*mall-user start*/
-.mall-user{
-	height:45px;
+
+.mall-user {
+	height: 45px;
 }
-.mall-user .mine{
-	width:150px;
-	height:45px;
-	background-color:#BB4363;
-	font-size:14px;
-	color:white;
+
+.mall-user .mine {
+	width: 150px;
+	height: 45px;
+	background-color: #BB4363;
+	font-size: 14px;
+	color: white;
 	text-align: center;
 	line-height: 45px;
-	margin-right:10px;
+	margin-right: 10px;
 }
-.mall-user .User{
-	background-color:#BB4363;
-	position:relative;
+
+.mall-user .User {
+	background-color: #BB4363;
+	position: relative;
 }
-.mall-user .User-phone{
-	width:40px;
-	height:40px;
-	border-radius:50%;
-	margin-top:2.5px;
-	margin-left:10px;
-	margin-right:20px;
+
+.mall-user .User-phone {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 2.5px;
+	margin-left: 10px;
+	margin-right: 20px;
 }
-.User-right{
-	padding:6px;
-	position:relative;
-	display:inline-block;
-	position:absolute;
-	top:0px;
-	width:200px;
+
+.User-right {
+	padding: 6px;
+	position: relative;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	width: 200px;
 }
-.User-box{
-	display:inline-block;
-	width:100px;
-	height:12px;
-	background-color:white;
-	position:absolute;
-	top:27px;
-	left:70px;
+
+.User-box {
+	display: inline-block;
+	width: 100px;
+	height: 12px;
+	background-color: white;
+	position: absolute;
+	top: 27px;
+	left: 70px;
 }
-.User-box:after{
-	display:block;
-	content:"";
-	clear:both;
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:80px;
-	height:12px;
-	background-color:#80C269;
+
+.User-box:after {
+	display: block;
+	content: "";
+	clear: both;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 80px;
+	height: 12px;
+	background-color: #80C269;
 }
-.User-address{
-	position:absolute;
-	top:0px;
-	right:80px;
-	height:45px;
-	line-height:45px;
+
+.User-address {
+	position: absolute;
+	top: 0px;
+	right: 80px;
+	height: 45px;
+	line-height: 45px;
 }
-.User-address a{
-	color:white;
+
+.User-address a {
+	color: white;
 }
-.User-address a:hover{
-	color:gold;
+
+.User-address a:hover {
+	color: gold;
 }
+
+
 /*mall-user end*/
+
+
 /*.Order start*/
-.Order{
-	
+
+.Order {
+	height: 1335px;
 }
-.Order .OrderCenter{
-	width:150px;
-	height:400px;
-	border:1px solid #ccc;
+
+
+.Order .OrderCenter {
+	width: 173px;
+	height: 400px;
+	border: 1px solid #ccc;
 	box-sizing: border-box;
 }
-.mallCenter-Home{
-	width:18px;
-	height:19px;
-	margin-right:10px;
+
+.mallCenter-Home {
+	width: 18px;
+	height: 19px;
+	margin-right: 10px;
 }
-.mallCenter-Profile{
-	width:19px;
-	height:19px;
-	margin-right:10px;
+
+.mallCenter-Profile {
+	width: 19px;
+	height: 19px;
+	margin-right: 10px;
 }
-.OrderCenter-title{
-	height:45px;
+
+.OrderCenter-title {
+	height: 45px;
 	line-height: 55px;
-	border-bottom:1px solid #ccc;
-	margin:0px 8px;
-	font-size:14px;
+	border-bottom: 1px solid #ccc;
+	margin: 0px 8px;
+	font-size: 14px;
 }
-.OrderCenter-title2{
-	height:40px;
+
+.OrderCenter-title2 {
+	height: 40px;
 	line-height: 45px;
-	border-bottom:1px solid #ccc;
-	margin:0px 8px;
-	font-size:14px;
+	border-bottom: 1px solid #ccc;
+	margin: 0px 8px;
+	font-size: 14px;
 }
-.OrderCenter-list{
-	margin:10px;
+
+.OrderCenter-list {
+	margin: 10px;
 	text-align: center;
 }
-.OrderCenter-list img{
-	margin-right:10px;
+.OrderCenter-list span:hover{
+	color:red;
 }
-.OrderCenter-list span{
-	font-size:12px;
+.OrderCenter-list img {
+	margin-right: 10px;
+}
+
+.OrderCenter-list span {
+	font-size: 12px;
 	line-height: 24px;
 }
+
+
 /*.Order end*/
+
+
 /*MyOrder start*/
 
-.MyOrder{
-	width:100%;
-	height:40px;
-	margin-left:10px;
-	border-bottom:2px solid #ccc;
-	position:relative;
+.MyOrder {
+	width: 100%;
+	height: 40px;
+	margin-left: 10px;
+	border-bottom: 2px solid #ccc;
+	position: relative;
 }
-.MyOrder-title{
-	height:40px;
-	padding-top:10px;
+
+.MyOrder-title {
+	height: 40px;
+	padding-top: 10px;
 	box-sizing: border-box;
 }
-.MyOrder:after{
-	display:block;
-	content:"";
-	clear:both;
-	width:68px;
-	height:2px;
-	background-color:#6CC9E8;
-	position:absolute;
-	bottom:-2px;
-	left:0px;
+
+.MyOrder:after {
+	display: block;
+	content: "";
+	clear: both;
+	width: 68px;
+	height: 2px;
+	background-color: #6CC9E8;
+	position: absolute;
+	bottom: -2px;
+	left: 0px;
 }
-.MyOrder-state{
-	height:30px;
-	margin:10px 0px;
-	background-color:#ece9e6;
+
+.MyOrder-state {
+	height: 30px;
+	margin: 10px 0px;
+	background-color: #ece9e6;
 }
+
+.MyOrder-state .baby {
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	color: #333333;
+}
+
+.MyOrder-state .Number-list {
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.MyOrder-state .Number-list .number {
+	width: 15%;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.CommodityNumber {
+	width: 100%;
+	background-color: #ECE9E6;
+	height: 30px;
+	margin-top: 10px;
+}
+
+.CommodityNumber .ipt {
+	width: 40px;
+	height: 30px;
+	position: relative;
+}
+
+.CommodityNumber .ipt input {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 7px;
+	left: 12px;
+}
+
+.CommodityNumber .Purchase {
+	font-size: 12px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.Purchase .PurchaseNumber {
+	display: inline-block;
+	width: 200px;
+}
+
+.Purchase .Purchase-number {
+	display: inline-block;
+	width: 200px;
+}
+
+.Goods-list {
+	width: 100%;
+	height: 120px;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.Goods-list .Goods-img {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin: 10px;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+}
+
+.Goods-list .Goods-img img {
+	width: 85%;
+	margin-top: 3px;
+}
+
+.Goods-list .Goods-text {
+	position: relative;
+}
+
+.Goods-text-title {
+	width: 200px;
+	display: inline-block;
+}
+
+.Goods-text-title h1 {
+	font-size: 12px;
+	line-height: 24px;
+	margin-top: 30px;
+}
+
+.Goods-text-title span {
+	color: white;
+	background-color: green;
+	padding: 1px 2px;
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.Goods-text-price {
+	display: inline-block;
+	padding: 20px;
+	position: absolute;
+	top: 9px;
+	left: 206px;
+}
+
+.Goods-text-price .Original {
+	line-height: 28px;
+	text-decoration: line-through;
+	margin-top: 20px;
+}
+
+.Goods-text-price .Present {
+	color: red;
+}
+
+.Goods-text-number {
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 325px;
+}
+
+.Goods-list .Goods-price {
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 28px;
+	box-sizing: border-box;
+	color: #333333;
+	border-left: 1px solid #CCCCCC;
+}
+
+.Goods-list .Goods-details {
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 28px;
+	box-sizing: border-box;
+	border-left: 1px solid #CCCCCC;
+}
+
+.Goods-list .Goods-Purchase {
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding-top: 37px;
+	box-sizing: border-box;
+	border-left: 1px solid #CCCCCC;
+}
+
+
+/*CommodityNumber end*/
+
+.Pagination {
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	padding-left: 40px;
+	box-sizing: border-box;
+	position: relative;
+	color:#333333;
+}
+.Pagination span{
+	cursor:pointer;
+}
+.Pagination #check-box {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	width: 18px;
+}
+
+.Pagination .AllElection {
+	margin-right: 5px;
+}
+
+.Pagination .payment {
+	border: 1px solid #CCCCCC;
+	padding:3px 5px;
+}
+.Pagination .Pages {
+	border: 1px solid #CCCCCC;
+	padding:3px 5px;
+}
+
+.Pagination .input-box{
+	padding:3px 20px;
+	position:relative;
+}
+.input-box #J_Input{
+	width: 35px;
+    height: 21px;
+    text-align: center;
+    border-radius:0px;
+    border:1px solid #CCCCCC;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.Pagination .Pages:hover,.Pagination .payment:hover{
+	border:1px solid red;
+	color:red;
+}
+.Recommend{
+	width: 100%;
+    height: 30px;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+}
+.Recommend:after {
+    display: block;
+    content: "";
+    clear: both;
+    width: 68px;
+    height: 2px;
+    background-color: #6CC9E8;
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+}
+.Recommend-list{
+	padding:0px 10px;
+}
+.Recommend-list-img{
+	text-align: center;
+	height:120px;
+	margin-bottom:25px;
+}
+.Recommend-list-img img{
+	margin:15px auto;
+}
+.Recommend-box{
+	border:1px solid #CCCCCC;
+	width:100%;
+	height:225px;
+	margin-top:10px;
+}
+.Recommend-list{
+	font-size:12px;
+	line-height:18px;
+}
+.Recommend-list-Text{
+	padding:0px 30px;
+	box-sizing:border-box;
+}
+
 /*MyOrder end*/
+
+
+/*-------------links start--------*/
+
+.links {
+	height: 90px;
+	background-color: #F9F7F3;
+	text-align: center;
+	position:relative;
+}
+
+.links-box span {
+	font-size: 16px;
+}
+
+.links-box img {
+	margin-top: 18px;
+	width:100px;
+}
+
+
+/*<!------------linds end--------------->
+<!------------genuine start--------------->*/
+
+.genuine {
+	text-align: center !important;
+}
+
+.genuine>div {
+	width: 150px;
+	text-align: center;
+	padding: 20px;
+	float: left;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+.genuine img {
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
+	float: left;
+}
+
+.genuine p {
+	line-height: 22px;
+	float: left;
+}
+
+.authentic {
+	margin-left: 15%;
+}
+
+
+/*<!------------genuine end--------------->
+<!------------foot-nav start--------------->*/
+
+.foot-nav {
+	margin: 30px auto;
+	text-align: center;
+}
+
+.foot-nav a {
+	font-size: 16px;
+	padding: 0px 20px;
+	color: #333;
+	border-right: 1px solid #ccc;
+}
+
+.foot-nav a:hover {
+	color: #21579A;
+}
+
+.foot-nav .last-a {
+	border-right: 0px;
+}
+
+.copy {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.copy p {
+	font-size: 14px;
+	line-height: 32px;
+}
+/*end*/
+.back-top{
+	width:80px;
+	height:24px;
+	background-color:#B80535;
+	text-align: center;
+	position:absolute;
+	top:30px;
+	right:140px;
+}
+.back-top a{
+	width:80px;
+	height:24px;
+	color:white;
+	text-align: center;
+	line-height: 24px;
+	display:block;
+}
+.back-top a:hover{
+	background-color:#FB5178;
+}

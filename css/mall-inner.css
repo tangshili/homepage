@@ -653,16 +653,16 @@ ul{
 	height:90px;
 	background-color:#F9F7F3;
 	text-align: center;
-
 }
-
 
 .links-box span{
 	font-size:16px;
 }
 .links-box img{
-	margin-top:10px;
+	margin-top:20px;
+	width:100px;
 }
+
 /*<!------------linds end--------------->
 <!------------genuine start--------------->*/
 .genuine{

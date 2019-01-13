@@ -29,11 +29,36 @@
 				flex: 3;
 				-webkit-flex: 3;
 			}
+			
+			.A {
+				background-color: red;
+			}
+			
+			.B {
+				background-color: gold;
+			}
+			
+			.C {
+				background-color: deeppink;
+			}
+			
+			.D {
+				background-color: aquamarine;
+			}
+			
+			.E {
+				background-color: mediumpurple;
+			}
+			
+			.red {
+				color: red;
+			}
 		</style>
 	</head>
 
 	<body>
 		<!--导航栏start-->
+		<div id="mall-top"></div>
 		<div class="side-navigation">
 			<img class="flower-1" src="img/flower-1.png" />
 			<ol>
@@ -179,25 +204,25 @@
 		<div class="Order flex w">
 			<div class="OrderCenter">
 				<div class="OrderCenter-title">
-					<img class="mallCenter-Home" src="mallCenter-img/Home.png"/>订单中心
+					<img class="mallCenter-Home" src="mallCenter-img/Home.png" />订单中心
 				</div>
 				<div class="OrderCenter-list">
-					<a href="#"><img style="width:13px; height:16px;" src="mallCenter-img/Gift.png"/><span>我的订单</span></a><br />
-					<a href="#"><img style="width:15px; height:14px;" src="mallCenter-img/Hearts.png"/><span>我的收藏</span></a><br />
-					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Pencil.png"/><span>缺货登记</span></a><br />
-					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Narrow.png"/><span>包裹跟踪</span></a><br />
-					<a href="#"><img style="width:15px; height:10px;" src="mallCenter-img/Mail.png"/><span>我的留言</span></a><br />
-					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Conversation.png"/><span>我的评论</span></a><br />
+					<a href="#"><img style="width:13px; height:16px;" src="mallCenter-img/Gift.png" /><span>我的订单</span></a><br />
+					<a href="#"><img style="width:15px; height:14px;" src="mallCenter-img/Hearts.png" /><span>我的收藏</span></a><br />
+					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Pencil.png" /><span>缺货登记</span></a><br />
+					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Narrow.png" /><span>包裹跟踪</span></a><br />
+					<a href="#"><img style="width:15px; height:10px;" src="mallCenter-img/Mail.png" /><span>我的留言</span></a><br />
+					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Conversation.png" /><span>我的评论</span></a><br />
 				</div>
 				<div class="OrderCenter-title2">
-					<img class="mallCenter-Profile" src="mallCenter-img/Profile.png"/>用户中心
+					<img class="mallCenter-Profile" src="mallCenter-img/Profile.png" />用户中心
 				</div>
 				<div class="OrderCenter-list">
-					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Book.png"/><span>用户信息</span></a><br />
-					<a href="#"><img style="width:16px; height:16px;" src="mallCenter-img/Coin.png"/><span>资金管理</span></a><br />
-					<a href="#"><img style="width:20px; height:11px;" src="mallCenter-img/Truck.png"/><span>收货地址</span></a><br />
-					<a href="#"><img style="width:16px; height:16px;" src="mallCenter-img/Tag.png"/><span>我的标签</span></a><br />
-					<a href="#"><img style="width:14px; height:14px;" src="mallCenter-img/Purse.png"/><span>我的红包</span></a><br />
+					<a href="#"><img style="width:15px; height:15px;" src="mallCenter-img/Book.png" /><span>用户信息</span></a><br />
+					<a href="#"><img style="width:16px; height:16px;" src="mallCenter-img/Coin.png" /><span>资金管理</span></a><br />
+					<a href="#"><img style="width:20px; height:11px;" src="mallCenter-img/Truck.png" /><span>收货地址</span></a><br />
+					<a href="#"><img style="width:16px; height:16px;" src="mallCenter-img/Tag.png" /><span>我的标签</span></a><br />
+					<a href="#"><img style="width:14px; height:14px;" src="mallCenter-img/Purse.png" /><span>我的红包</span></a><br />
 				</div>
 			</div>
 			<div class="MyOrder">
@@ -208,10 +233,408 @@
 					<span style="font-size:14px; line-height: 30px; margin-left:47px; color:#7A7A7A;">待付款<span style="color:red; margin-left:5px;">1</span></span>
 					<span style="font-size:14px; color:#6CC9E8; line-height: 30px; margin-left:258px;">查看全部订单</span>
 				</div>
-				<div class="MyOrder-state">
-					
+				<div class="MyOrder-state flex">
+					<div class="baby">宝贝</div>
+					<div class="Number-list flex-1">
+						<span class="number">单价(元)</span>
+						<span class="number">数量</span>
+						<span class="number">实付款(元)</span>
+						<span class="number">交易状态</span>
+						<span class="number">交易操作</span>
+					</div>
 				</div>
+
+				<!--Goods list-1-->
+				<div class="CommodityNumber flex">
+					<div class="ipt">
+						<input type="checkbox" name="check" id="check" value="" />
+					</div>
+					<div class="Purchase flex-1">
+						<div class="PurchaseNumber">订单编号:123456789564897</div>
+						<div class="Purchase-number">购买时间:2018-07-01</div>
+					</div>
+				</div>
+				<div class="Goods-list flex">
+					<div class="Goods-img hover">
+						<img style="width:47%;" src="mallCenter-img/Health.png" />
+					</div>
+					<div class="Goods-text flex-2">
+						<div class="Goods-text-title">
+							<h1>深海鱼油胶囊（三文鱼油）家装复合300g*120粒  </h1>
+							<span>七</span>
+							<span>正</span>
+						</div>
+						<div class="Goods-text-price">
+							<span class="Original">原价￥398</span><br />
+							<span class="Present">￥159.00 </span>
+						</div>
+						<div class="Goods-text-number">1</div>
+					</div>
+					<div class="Goods-price flex-1">
+						<div class="Goods-price-number">149.00</div>
+						<div class="Goods-price-number">(红包抵扣10元)</div>
+						<div class="Goods-price-number">免运费</div>
+					</div>
+					<div class="Goods-details flex-1">
+						<div class="Goods-details-text">交易成功</div>
+						<div class="Goods-details-text">订单详情</div>
+						<div class="Goods-details-text" style="color:red;">包裹跟踪</div>
+					</div>
+					<div class="Goods-Purchase flex-1">
+						<div class="Goods-Purchase-text">评价</div>
+						<div class="Goods-Purchase-text">再次购买</div>
+					</div>
+				</div>
+				<!--Goods list-2-->
+				<div class="CommodityNumber flex">
+					<div class="ipt">
+						<input type="checkbox" name="check" id="check" value="" />
+					</div>
+					<div class="Purchase flex-1">
+						<div class="PurchaseNumber">订单编号:123456789564897</div>
+						<div class="Purchase-number">购买时间:2018-07-01</div>
+					</div>
+				</div>
+				<div class="Goods-list flex">
+					<div class="Goods-img hover">
+						<img style="margin-top:18px;" src="mallCenter-img/baby.png" />
+					</div>
+					<div class="Goods-text flex-2">
+						<div class="Goods-text-title">
+							<h1>帮宝适绿帮纸尿裤大号L164片超薄透气男女通用婴儿尿片尿不湿</h1>
+							<span>七</span>
+							<span>正</span>
+						</div>
+						<div class="Goods-text-price">
+							<span class="Original">原价￥398</span><br />
+							<span class="Present">￥255.00 </span>
+						</div>
+						<div class="Goods-text-number">1</div>
+					</div>
+					<div class="Goods-price flex-1">
+						<div class="Goods-price-number">255.00</div>
+						<div class="Goods-price-number">含运费</div>
+					</div>
+					<div class="Goods-details flex-1">
+						<div class="Goods-details-text">待付款</div>
+						<div class="Goods-details-text">订单详情</div>
+					</div>
+					<div class="Goods-Purchase flex-1">
+						<div class="Goods-Purchase-text">取消订单</div>
+						<div class="Goods-Purchase-text">再次购买</div>
+					</div>
+				</div>
+				<!--Goods list-3-->
+				<div class="CommodityNumber flex">
+					<div class="ipt">
+						<input type="checkbox" name="check" id="check" value="" />
+					</div>
+					<div class="Purchase flex-1">
+						<div class="PurchaseNumber">订单编号:123456789564897</div>
+						<div class="Purchase-number">购买时间:2018-07-01</div>
+					</div>
+				</div>
+				<div class="Goods-list flex">
+					<div class="Goods-img hover">
+						<img src="mallCenter-img/shoes.png" />
+					</div>
+					<div class="Goods-text flex-2">
+						<div class="Goods-text-title">
+							<h1>婚鞋女冬季结婚礼服伴娘新娘鞋绑带年会高跟鞋细跟亮片水晶婚纱鞋  </h1>
+							<span>七</span>
+							<span>正</span>
+						</div>
+						<div class="Goods-text-price">
+							<span class="Original">原价￥331</span><br />
+							<span class="Present">￥159.00 </span>
+						</div>
+						<div class="Goods-text-number">1</div>
+					</div>
+					<div class="Goods-price flex-1">
+						<div class="Goods-price-number">149.00</div>
+						<div class="Goods-price-number">含运费</div>
+					</div>
+					<div class="Goods-details flex-1">
+						<div class="Goods-details-text">已付款</div>
+						<div class="Goods-details-text">订单详情</div>
+					</div>
+					<div class="Goods-Purchase  flex-1" style="text-align: center;">
+						<div class="Goods-Purchase-text" style="padding:3px 5px ;width:45%; background-color:red; color:white;margin:10px 55px;">确认收货</div>
+					</div>
+				</div>
+				<!--Goods list-4-->
+				<div class="CommodityNumber flex">
+					<div class="ipt">
+						<input type="checkbox" name="check" id="check" value="" />
+					</div>
+					<div class="Purchase flex-1">
+						<div class="PurchaseNumber">订单编号:123456789564897</div>
+						<div class="Purchase-number">购买时间:2018-07-01</div>
+					</div>
+				</div>
+				<div class="Goods-list flex">
+					<div class="Goods-img hover">
+						<img src="mallCenter-img/cup.png" />
+					</div>
+					<div class="Goods-text flex-2">
+						<div class="Goods-text-title">
+							<h1>茶杯玻璃泡花茶杯子过滤带盖水杯带把茶水分离办公男女士玻璃茶杯  </h1>
+							<span>七</span>
+							<span>正</span>
+						</div>
+						<div class="Goods-text-price">
+							<span class="Original">原价￥89</span><br />
+							<span class="Present">￥59.00 </span>
+						</div>
+						<div class="Goods-text-number">1</div>
+					</div>
+					<div class="Goods-price flex-1">
+						<div class="Goods-price-number">149.00</div>
+						<div class="Goods-price-number">(红包抵扣10元)</div>
+						<div class="Goods-price-number">免运费</div>
+					</div>
+					<div class="Goods-details flex-1">
+						<div class="Goods-details-text">交易成功</div>
+						<div class="Goods-details-text">订单详情</div>
+						<div class="Goods-details-text" style="color:red;">包裹跟踪</div>
+					</div>
+					<div class="Goods-Purchase flex-1">
+						<div class="Goods-Purchase-text">评价</div>
+						<div class="Goods-Purchase-text">再次购买</div>
+					</div>
+				</div>
+				<!--Goods end-->
+				<!--pagination start-->
+				<div class="Pagination">
+					<input type="checkbox" name="check-box" id="check-box" value="" />
+					<span class="AllElection">全选</span>
+					<span class="payment">合并付款</span>
+					<span class="payment">确认收货</span>
+					<span class="payment" style="margin-right:50px;">批量删除</span>
+					<span class="Pages"><上一页</span>
+					<span class="Pages">1</span>
+					<span class="Pages">2</span>
+					<span class="Pages">3</span>
+					<span class="Pages">4</span>
+					<span class="Pages">5</span>
+					<span class="Pages">6</span>
+					<span class="Pages">7</span>
+					<span class="Pages">8</span>
+					<span>……</span>
+					<span class="Pages"><下一页</span>
+					<span>共十五页，&nbsp;&nbsp;</span>
+					<span>到第</span>
+					<span class="input-box">
+						<input id="J_Input" type="number" value="2" min="1" max="100"  >
+					</span>
+					<span>页</span>
+					<span class="Pages">确认</span>
+				</div>
+				<!--pagination end-->
+				<div class="Recommend">
+					<span style="font-size:14px; font-weight: bold; line-height: 30px;">猜你喜欢</span>
+				</div>
+				<div class="Recommend-box flex">
+					<!--Recommend-list1-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/mike.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list2-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/Health-1.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list3-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/Perfume.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list4-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/body-1.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list5-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/TV.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+				</div>
+				<!--end-->
+				<!--最近购买-->
+				<div class="Recommend" style="margin-top:10px;">
+					<span style="font-size:14px; font-weight: bold; line-height: 30px;">最近购买</span>
+				</div>
+				<div class="Recommend-box flex">
+					<!--Recommend-list1-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/cup-1.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list2-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/shoes-1.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list3-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/FLOWER.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list4-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/Toys.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+					<!--Recommend-list5-->
+					<div class="Recommend-list flex-1 hover">
+						<div class="Recommend-list-img">
+							<img src="mallCenter-img/package.png" />
+						</div>
+						<div class="Recommend-list-Text">
+							<div class="Recommend-list-text">
+								Oligo活性益生元，有益于肠道益生菌增殖发育
+							</div>
+							<div class="Recommend-text-price red">￥129.9</div>
+							<div class="Recommend-list-evaluate"><span style="color:#4CC1E5">3307</span>评价</div>
+						</div>
+					</div>
+				</div>
+
+				<!--end-->
 			</div>
+		</div>
+
+		<!------------linds start--------------->
+		<div class="links">
+			<div class="links-box w">
+				<span class="spacings">友情链接:</span>
+				<img class="spacing hover" src="img/cooperation-1.png" />
+				<img class="spacing hover" src="img/cooperation-2.png" />
+				<img class="spacing hover" src="img/cooperation-5.png" />
+				<img class="spacing hover" src="img/cooperation-7.png" />
+				<img class="spacing hover" src="img/cooperation-9.png" />
+				<img class="spacing hover" src="img/cooperation-10.png" />
+				<img class="spacing hover" src="img/cooperation-12.png" />
+				<img class="spacing hover" src="img/cooperation-13.png" />	
+			</div>
+			<div class="back-top">
+				<a href="#mall-top">返回顶部</a>
+			</div>
+		</div>
+
+		<!------------linds end--------------->
+		<!------------genuine start--------------->
+		<div class="genuine w clear">
+			<div class="authentic">
+				<img src="mall-img/floor-7-1.png" />
+				<p>正规渠道</p>
+				<p>正品保障</p>
+			</div>
+			<div class="money">
+				<img src="mall-img/floor-7-2.png" />
+				<p>放心购物</p>
+				<p>货到付款</p>
+			</div>
+			<div class="transport">
+				<img src="mall-img/floor-7-3.png" />
+				<p>顺丰快递</p>
+				<p>安全到家</p>
+			</div>
+			<div class="return">
+				<img src="mall-img/floor-7-4.png" />
+				<p>七天退换</p>
+				<p>购物无忧</p>
+			</div>
+		</div>
+		<!------------genuine end--------------->
+		<!------------foot-nav start--------------->
+		<div class="foot-nav w">
+			<a href="#">首页 </a>
+			<a href="#">个人福利</a>
+			<a href="#">家庭福利</a>
+			<a href="#">公司福利</a>
+			<a href="#">兑换专区</a>
+			<a href="#" class="last-a">特价专卖</a>
+		</div>
+		<!------------foot-nav end--------------->
+		<!------------cype start--------------->
+		<div class="copy">
+			<p>上海市闵行1402529区吴中路1189号7楼717 邮箱：zanli@163.com 电话：400-8888 8888 传真：400-6666 6666 </p>
+			<p>沪ICP备9号 版权所有©也码科技</p>
 		</div>
 
 	</body>
